@@ -84,7 +84,30 @@ int main()
     	cout << nilai << "  Adalah Bilangan Ganjil" << endl;
     }
     	
-    
+  // Menghitung luas lingkaran dengan membagi rumus menjadi 2 bagian
+  // bagian 1 : jari jari habis dibagi 7
+  // bagian 2 : jari jari tidak habis dibagi 7
+    cout << "Luas lingkaran \n";
+    	int row;
+    	const float pie = 3.14;
+    	
+    cout << "Masukkan nilai r = ";
+    cin >> row;
+    cout << "Luas Lingkaran tersebut adalah = ";
+      if (row%7 == 0) 
+      {
+      	
+      	int luas;
+      	luas = (row * row)/ 7 * 22;
+      	//cout << luas;
+      }
+      else {
+      	
+      	float luas;
+      	luas = pie * row * row;
+      	//cout << luas;
+      	
+      }
     
     cin.get();
     return 0;
